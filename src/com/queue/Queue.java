@@ -11,7 +11,7 @@ public class Queue {
     private int nItems;//当前队列的元素个数
 
     public Queue(int s){
-        maxSize = s+1;
+        maxSize = s;
         queArray = new Object[maxSize];
         front = 0;//头
         rear = -1;//尾
